@@ -1,2 +1,85 @@
 
 /* Your CSS Code here. */
+body{
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	background-color: lightcyan;
+	display: flex;
+	flex-direction: column;
+	align-item:center;
+	justify-content:center
+}
+section>img{
+	width: 40%;
+	border-radius: 50%
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	margin-bottom: 20px;
+	flex-direction: row;
+	padding-inline:30px
+}
+nav>ul{
+	display: flex;
+}
+nav>ul>li>a{
+	padding-inline: 20px;
+	text-decoration: none;
+	list-style: none;
+	font-weight: bold;
+	color: #3498db
+	
+}
+nav>ul>li{
+	list-style: none;
+}
+a:hover{
+	color: red;
+}
+section{
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-ailgn: center;
+	margin: 50px;
+}
+section>div{
+	width: 300px;
+	margin-inline: 40px;
+	padding: 20px;
+}
+h3{
+	font-size: 30px;
+	color: darkgoldenrod;
+}
+h1{
+	font-size: 32px ;
+	color: darkblue;
+}
+p{
+	font-size: 20px;
+	color: gray;
+}
+button{
+	font-size: 20px;
+	width: 150px;
+	padding: 10px;
+	background-color: #FF5253;
+	border: none;
+	margin: 10px;
+	border-radius: 20px;
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+}
+button:hover{
+	background-color: blue;
+}
+#btn{
+	
+	
+}
